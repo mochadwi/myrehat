@@ -8,6 +8,18 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   output: "standalone",
   transpilePackages: ["shiki"],
+  async rewrites() {
+    return [
+      {
+        source: "/rpc/:path*",
+        destination: "http://server:3000/rpc/:path*",
+      },
+      {
+        source: "/api/auth/:path*",
+        destination: "http://server:3000/api/auth/:path*",
+      },
+    ];
+  },
 };
 
 export default withVarlock(nextConfig);
