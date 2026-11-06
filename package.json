@@ -32,9 +32,12 @@
     "@biomejs/biome": "^2.6.2",
     "@myrehat-task-b/config": "workspace:*",
     "@types/bun": "catalog:",
+    "ai": "catalog:",
+    "ai-sdk-provider-opencode-sdk": "^5.0.1",
     "turbo": "^2.11.7",
     "typescript": "catalog:",
-    "varlock": "catalog:"
+    "varlock": "catalog:",
+    "vitest": "^3.2.7"
   },
   "packageManager": "pnpm@12.16.1"
 }
