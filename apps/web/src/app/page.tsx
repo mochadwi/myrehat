@@ -62,11 +62,12 @@ export default function Home() {
         {/* WA Contact CTA */}
         <section className="mt-8 pt-8 border-t bg-white">
           <div className="max-w-2xl mx-auto text-center">
-            <button
-              className="w-full bg-green-600 text-white py-3 px-4 rounded-full text-lg font-medium hover:bg-green-700 transition-colors"
+            <a
+              href="https://wa.me/?text=Halo,%20saya%20ingin%20tanya%20tentang%20homestay"
+              className="w-full bg-green-600 text-white py-3 px-4 rounded-full text-lg font-medium hover:bg-green-700 transition-colors cursor-pointer"
             >
               Contact Host via WhatsApp
-            </button>
+            </a>
             <p className="mt-2 text-sm text-gray-500">
               Send WhatsApp message to hosts
             </p>
